@@ -1,12 +1,12 @@
-#count_matirx_data
-This directory contains raw read count matrix data for genes and TEs. The data for all runs were merged.
+# count_matirx_data
+This directory contains the raw read count matrix data for genes and TEs. The data for all sequencing runs were merged.
 
-* vitro/: count matrices for scRNA-Seq of iPSC, iMeLCs, PGCLCs, MLCs, TCs, and T1LCs
+* vitro/: the count matrices for scRNA-Seq of iPSCs, iMeLCs (incipient mesoderm-like cells), PGCLCs (primordial germ cell-like cells), MLCs (mitotic-prospermatogonia-like cells), TCs (transitional cells), and T1LCs (transitional 1-prospermatogonia-like cells)
 * vitro/data.merged.vitro.count.csv.gz: the count matrix for genes and TEs (TE locus level)
 * vitro/data.merged.vitro.count.family.csv.gz: the count matrix for genes and TEs (TE family level)
 * vitro/data.merged.vitro.count.subfamily.csv.gz: the count matrix for genes and TEs (TE subfamily level)
 
-* vivo/: count matrices for scRNA-Seq of human fetal testes
+* vivo/: the count matrices for scRNA-Seq of human fetal testes
 * vivo/data.merged.vitro.count.csv.gz: the count matrix for genes and TEs (TE locus level)
 * vivo/data.merged.vitro.count.family.csv.gz: the count matrix for genes and TEs (TE family level)
 * vivo/data.merged.vitro.count.subfamily.csv.gz: the count matrix for genes and TEs (TE subfamily level)
