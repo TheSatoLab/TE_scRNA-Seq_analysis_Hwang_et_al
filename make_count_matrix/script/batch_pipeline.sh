@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 <<COMMENTOUT
-
+cellRanger_dir_path=<path to the output directory (outs/) of CellRanger>
 COMMENTOUT
 
 #make and merge count matrices
