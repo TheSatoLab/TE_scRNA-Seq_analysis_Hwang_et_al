@@ -1,5 +1,5 @@
 # UMAP
-This directory contains an R script to reproduce UMAP plot.
+This directory contains an R script to generate UMAP plot.
 
 * script/UMAP_plot.R: makes UMAP plot
 
