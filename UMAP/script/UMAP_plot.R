@@ -16,7 +16,7 @@ cell.info <- cell.info[cell.info$germ == 1,]
 
 #read vivo data
 
-data.vivo.name <- 'count_matrix_data/vivo/data.merged.count.subfamily.csv' 
+data.vivo.name <- '../count_matrix_data/vivo/data.merged.count.subfamily.csv' 
 data.vivo <- read.csv(data.vivo.name,header=T,row.names=1,check.names=F)
 colnames(data.vivo) <- gsub('\\-1','',colnames(data.vivo))
 
