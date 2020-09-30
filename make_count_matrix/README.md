@@ -6,3 +6,8 @@ This directory contains scripts to make an expression count matrix of genes and 
 * script/sum_TE_count.family.py: sums up the counts of TE loci and calculates the counts for each TE family
 * script/sum_TE_count.subfamily.py: sums up the counts of TE loci and calculates the counts for each TE subfamily
 
+## Dependencies
+* R (3.6.3)
+* Seurat (3.1.4)
+* python (2.7.17)
+* python2/numpy (1.14.3)

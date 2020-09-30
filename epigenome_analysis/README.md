@@ -15,3 +15,17 @@ python2 script/calc_enrichment_randomized.py \
           1000 \ #number of permutation
        > res_enrichment_LTR12C.GSE92279_SSC1_peaks.txt
 ```
+
+
+## Dependencies
+* python (2.7.17)
+* SRA Toolkit (2.10.2)
+* BWA (0.7.17)
+* Picard (2.18.16)
+* removeChrom.py (https://github.com/harvardinformatics/ATAC-seq/blob/master/atacseq/removeChrom.py)
+* samtools (1.10)
+* MACS2 (2.2.6)
+* python2/subprocess (3.5.3)
+* python2/numpy (1.14.3)
+* python2/scipy (1.1.0)
+* bedtools (2.27.0)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import sys, math, subprocess, re
+import sys, subprocess, re
 import numpy as np
 import scipy.stats as stats
 
