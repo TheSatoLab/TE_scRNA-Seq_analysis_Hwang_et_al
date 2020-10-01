@@ -1,11 +1,11 @@
 # epigenome_analysis
 This directory contains the data and scripts to analysis the epigenetic profiling of TEs
-* TE_bed/: a directory containing bed files describing the genomic loci of each TE subfamily
-* macs2peaks/: a directory containing bed files of ATAC-Seq peaks
-* macs2peaks/sample_info.txt: the sample information of ATAC-Seq data
-* chromSize_hg38.txt: a list of the length of each chromosome in the reference genome
-* script/batch_pipeline_peak_call.sh: a shell script to call ATAC-Seq peaks
-* script/calc_enrichment_randomized.py: calculates the fold enrichment of the overlaps between TEs and ATAC-Seq relative to random expectation.
+* **TE_bed/:** a directory containing bed files describing the genomic loci of each TE subfamily
+* **macs2peaks/:** a directory containing bed files of ATAC-Seq peaks
+* **macs2peaks/sample_info.txt:** the sample information of ATAC-Seq data
+* **chromSize_hg38.txt:** a list of the length of each chromosome in the reference genome
+* **script/batch_pipeline_peak_call.sh:** a shell script to call ATAC-Seq peaks
+* **script/calc_enrichment_randomized.py:** calculates the fold enrichment of the overlaps between TEs and ATAC-Seq relative to random expectation.
 usage:
 ```Bash
 python2 script/calc_enrichment_randomized.py \  

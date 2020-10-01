@@ -3,9 +3,9 @@
 Materials for detecting the expression levels of transposable elements in single cell RNA-sequencing (RNA-Seq) analysis.
 
 This directory contains two sub directories and one file:
-1. **input** contains input files.
-2. **script** contains programs.
-3. **reference.py** is a file used to modify the STAR alignment parameters in Cell Ranger. The detail about this file is written below.
+1. **input:** contains input files.
+2. **script:** contains programs.
+3. **reference.py:** is a file used to modify the STAR alignment parameters in Cell Ranger. The detail about this file is written below.
 
 # Note
 

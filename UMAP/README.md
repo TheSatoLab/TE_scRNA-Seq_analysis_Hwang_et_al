@@ -1,7 +1,7 @@
 # UMAP
 This directory contains an R script to generate UMAP plot.
 
-* script/UMAP_plot.R: makes UMAP plot
+* **script/UMAP_plot.R:** makes UMAP plot
 
 ## Dependencies
 * R (3.6.3)
