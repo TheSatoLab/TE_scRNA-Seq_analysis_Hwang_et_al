@@ -18,6 +18,7 @@ python2 script/calc_enrichment_randomized.py \
 
 
 ## Dependencies
+* Ubuntu 18.04.4 LTS
 * python (2.7.17)
 * SRA Toolkit (2.10.2)
 * BWA (0.7.17)
